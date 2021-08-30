@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+
+<!-- definisco l'elemento root -->
+<TEI>
+    <!-- definisco gli elementi figli-->
+    <header></header>
+    <facsimile></facsimile>
+    <text></text>
+</TEI>
+<!-- Il content model testuale degli elementi header, facsimile e text viene definito nella DTD -->

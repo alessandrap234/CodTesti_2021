@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<!-- Esercizio 4: Inserire all'interno di un tag un frammento di codice HTML -->
+<htmlCode>
+    <![CDATA[
+    <h1>Intestazione di primo livello </h1>
+    <h2>Intestazione di secondo livello </h2>
+    ]]>
+</htmlCode>

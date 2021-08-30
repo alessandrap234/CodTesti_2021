@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--Riferimento al file DTD in cui sono presenti i vincoli -->
+<!DOCTYPE TEI SYSTEM "./filedtd.dtd">
+
+<!--Elemento ROOT-->
+<TEI> 
+    <!-- Elementi figli-->
+    <header type = "intestazione" lang = "ITA">
+        Questa è un'intestazione
+    </header>
+    <facsimile source = "fonte">
+        Questo è un facsimile
+    </facsimile>
+    <text id = "testo1">
+        Questo è un testo
+        <!-- Possibile elemento seg, figlio di text-->
+        <seg> Questo è un segmento</seg>
+        Altro testo
+    </text>
+</TEI>

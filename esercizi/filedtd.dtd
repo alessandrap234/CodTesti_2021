@@ -1,0 +1,17 @@
+<!-- Dichiarazione della radice e del suo content model-->
+<!ELEMENT TEI ( header, facsimile?, text+)>
+
+    <!-- Dichiarazione del content model testuale degli elementi figli-->
+    <!ELEMENT header (#PCDATA)>
+    <!ELEMENT facsimile (#PCDATA)>
+    <!ELEMENT text (#PCDATA | seg)*>
+
+    <!-- Dichiarazione degli attributi-->
+    <!ATTLIST header type CDATA #Fixed "intestazione" >
+    <!ATTLIST header lang NMTOKEN #IMPLIED>
+
+    <!ATTLIST facsimile source CDATA #REQUIRED>
+    <!ATTLIST facsimile ref IDREFS #IMPLIED>
+
+    <!ATTLIST text id ID #REQUIRED>
+    <!ATTLIST text type CDATA #IMPLIED>

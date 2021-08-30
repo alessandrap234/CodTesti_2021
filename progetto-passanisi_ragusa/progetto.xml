@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="french">Codification des Discours à l'Universitè de Genève: Pages 1-2</title>
+                <title xml:lang="italian">Codifica delle Prolusioni all'Università di Ginevra: Pagine 1-2</title>
+                <author xml:id="FdS">Ferdinand De Saussure</author>
+                <respStmt>
+				    <resp source="#Fadda">Traduzione realizzata da:</resp>
+					<name ref="#EF"> Emanuele Fadda</name>
+			    </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+				<edition> Edizione Digitale - <date when="2021-09">Settembre 2021</date></edition>
+                <respStmt>
+                    <resp>Codifica a cura di:</resp>
+                    <name xml:id="AP"> Alessandra Passanisi</name>
+                    <name xml:id="MR"> Martina Ragusa</name>
+                </respStmt>
+			</editionStmt>
+
+            <publicationStmt>
+				<publisher xml:lang="french" ref="https://archives.bge-geneve.ch/archives/archives/fonds/saussure_ferdinand_de/view:5892/n:89"> Biblioteca di Ginevra </publisher>
+				<pubPlace ref="#GN"> Ginevra </pubPlace>
+				<availability>
+				    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
+				</availability>
+				<date when="2021"> 2021 </date>
+			</publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+						<country key="CH">Svizzera</country>
+						<settlement ref="#GN">Ginevra</settlement>
+					    <repository role="library" ref="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/1" xml:lang="italiano">Biblioteca di Ginevra</repository>
+					    <idno type="inventory">BGE Ms. fr. 3951/1.1-3</idno>
+						<altIdentifier>
+							<idno type="collocation">Disponibile presso la Biblioteca di Ginevra</idno>
+						</altIdentifier>
+				    </msIdentifier>
+
+                    <msContents>
+						<msItem>
+						    <author xml:lang="french" ref="#FdS">
+							    <persName ref="#FdS">Ferdinand De Saussure</persName>
+							</author>
+						    <title type="uniform" xml:lang="french">
+								Trois premières conférences à l'Université (cours d'ouverture,<date when="1891-11">Novembre 1891</date>)</title>
+							<textLang mainLang="french">francese</textLang>
+						</msItem>
+					</msContents>
+
+                    <physDesc>
+						<objectDesc form="folio"> 
+							<supportDesc material="paper">
+								Il manoscritto è stato realizzato su <support>fogli di <material>carta</material></support> ed è composto da 
+                                <extent>67 pagine e 1 foglietto. Nello specifico, le tre Prolusioni sono composte rispettivamente da 30, 15 e 22 pagine.</extent>
+                                <condition> I fogli sono in buone condizioni nonostante qualche macchia e numerose cancellature e correzioni.
+                                </condition>
+                                <foliation>I numeri di pagina sono stati inseriti a mano all'interno di un cerchio posto nella parte superiore della pagina.
+                                </foliation>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <handDesc hands="1">
+							<handNote xml:id="hand_1">
+								<p>Il manoscritto è stato redatto dall'<persName ref="#FdS">autore</persName>.</p>
+							</handNote>
+						</handDesc>
+
+						<typeDesc>
+					        <p>Il testo presenta correzioni, cancellature, aggiunte interlineari e frasi incomplete; è scritto in corsivo, motivo per cui la grafia è a tratti poco comprensibile.</p>
+						</typeDesc>
+                    </physDesc>
+
+                    <history>
+						<origin notAfter="1891-11-13">
+							<p>
+								Si tratta di appunti dello stesso <persName ref="#FdS">Ferdinand De Saussure</persName>, in parte utilizzati per le prime conferenze all'Università di <placeName ref="#GN">Ginevra</placeName>. 
+                                In particolare i contenuti vennero esposti durante le prime lezioni del corso di <foreign xml:lang="french">Phonétique du grec et du latin</foreign> tenute nei giorni, 
+                                <ref target="#CFS62">
+								<date when="1891-11-06">6</date>, 
+                                <date when="1891-11-10">10</date>
+								e 
+                                <date when="1891-11-13">13 Novembre 1891</date>.
+								</ref>
+                                Probabilmente il testo era inizialmente destinato ad una <foreign xml:lang="french">brochure</foreign>.
+							</p>
+						</origin>
+
+						<acquisition>
+							<p>Il manoscritto originale è stato acquisito dalla Biblioteca di <placeName ref="#GN">Ginevra</placeName>.</p>
+						</acquisition>
+
+					</history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <!--Descrizione di aspetti non bibliografici: lingua, partecipanti, collocazione-->
+        <profileDesc> 
+            <langUsage> 
+				La versione originale del testo è in lingua <language ident="french">Francese</language>. 
+			</langUsage>
+            <textDesc> 
+				<channel mode="ws" /> 
+				<constitution type="single"/> 
+				<derivation type="original"/> 
+				<domain type="education"/> 
+				<factuality type="fact"/> 
+				<interaction type="partial" active="singular" passive="group"/> 
+				<preparedness type="revised"/>
+				<purpose type="inform" degree="high"/> 
+			</textDesc>
+            <settingDesc>
+				<setting>
+					<name>
+						<placeName ref="#GN">Ginevra</placeName>, Svizzera</name>
+						<time>
+						<date when="1891-11">Novembre 1891</date>
+						</time>
+				</setting>
+		    </settingDesc>
+        </profileDesc>
+    </teiHeader> 
+    
+    <facsimile> 
+        <surface n="1" xml:id="pag1">
+            <graphic url='pag1.jpg' width='4032px' height='6048px'/>
+            <zone ulx="301" uly="483" lrx="723" lry="807" xml:id = "Pagina_1_Riga_1"/>
+            <zone ulx="3389" uly="409" lrx="3541" lry="537" xml:id = "Pagina_1_Riga_2"/>
+            <zone ulx="933" uly="599" lrx="3499" lry="809" xml:id = "Pagina_1_Riga_3"/>
+            <zone ulx="911" uly="869" lrx="3647" lry="1001" xml:id = "Pagina_1_Riga_4"/>
+            <zone ulx="417" uly="1479" lrx="3659" lry="1601" xml:id = "Pagina_1_Riga_5"/>
+            <zone ulx="559" uly="1623" lrx="2505" lry="1683" xml:id = "Pagina_1_Riga_6"/>
+            <zone ulx="933" uly="1723" lrx="3679" lry="2095" xml:id = "Pagina_1_Riga_7"/>
+            <zone ulx="253" uly="1727" lrx="907" lry="1829" xml:id = "Pagina_1_Riga_8"/>
+            <zone ulx="345" uly="1865" lrx="863" lry="1917" xml:id = "Pagina_1_Riga_9"/>
+            <zone ulx="357" uly="1963" lrx="841" lry="2003" xml:id = "Pagina_1_Riga_10"/>
+            <zone ulx="389" uly="2079" lrx="861" lry="2087" xml:id = "Pagina_1_Riga_11"/>
+            <zone ulx="257" uly="2149" lrx="777" lry="2215" xml:id = "Pagina_1_Riga_12"/>
+            <zone ulx="245" uly="2249" lrx="633" lry="2345" xml:id = "Pagina_1_Riga_13"/>
+            <zone ulx="253" uly="2365" lrx="519" lry="2425" xml:id = "Pagina_1_Riga_14"/>
+            <zone ulx="269" uly="2451" lrx="613" lry="2497" xml:id = "Pagina_1_Riga_15"/>
+            <zone ulx="269" uly="2517" lrx="869" lry="2579" xml:id = "Pagina_1_Riga_16"/>
+            <zone ulx="263" uly="2645" lrx="845" lry="2669" xml:id = "Pagina_1_Riga_17"/>
+            <zone ulx="247" uly="2745" lrx="827" lry="2773" xml:id = "Pagina_1_Riga_18"/>
+            <zone ulx="257" uly="2881" lrx="869" lry="2893" xml:id = "Pagina_1_Riga_19"/>
+            <zone ulx="259" uly="2979" lrx="845" lry="3019" xml:id = "Pagina_1_Riga_20"/>
+            <zone ulx="273" uly="3091" lrx="851" lry="3157" xml:id = "Pagina_1_Riga_21"/>
+            <zone ulx="271" uly="3191" lrx="849" lry="3215" xml:id = "Pagina_1_Riga_22"/>
+            <zone ulx="265" uly="3315" lrx="869" lry="3343" xml:id = "Pagina_1_Riga_23"/>
+            <zone ulx="265" uly="3429" lrx="851" lry="3453" xml:id = "Pagina_1_Riga_24"/>
+            <zone ulx="265" uly="3491" lrx="821" lry="3551" xml:id = "Pagina_1_Riga_25"/>
+            <zone ulx="299" uly="3577" lrx="837" lry="3683" xml:id = "Pagina_1_Riga_26"/>
+            <zone ulx="287" uly="3691" lrx="799" lry="3733" xml:id = "Pagina_1_Riga_27"/>
+            <zone ulx="269" uly="3763" lrx="839" lry="3877" xml:id = "Pagina_1_Riga_28"/>
+            <zone ulx="273" uly="3775" lrx="959" lry="3977" xml:id = "Pagina_1_Riga_29"/>
+            <zone ulx="313" uly="3795" lrx="1021" lry="4077" xml:id = "Pagina_1_Riga_30"/>
+            <zone ulx="893" uly="3079" lrx="3631" lry="3547" xml:id = "Pagina_1_Riga_31"/>
+            <zone ulx="955" uly="3565" lrx="3645" lry="3717" xml:id = "Pagina_1_Riga_32"/>
+            <zone ulx="1013" uly="3777" lrx="3595" lry="3881" xml:id = "Pagina_1_Riga_33"/>
+            <zone ulx="977" uly="3965" lrx="3587" lry="4247" xml:id = "Pagina_1_Riga_34"/>
+            <zone ulx="277" uly="4225" lrx="775" lry="4309" xml:id = "Pagina_1_Riga_35"/>
+            <zone ulx="279" uly="4365" lrx="775" lry="4403" xml:id = "Pagina_1_Riga_36"/>
+            <zone ulx="327" uly="4365" lrx="1247" lry="4503" xml:id = "Pagina_1_Riga_37"/>
+            <zone ulx="795" uly="4305" lrx="3649" lry="4779" xml:id = "Pagina_1_Riga_38"/>
+            <zone ulx="977" uly="4837" lrx="3579" lry="4971" xml:id = "Pagina_1_Riga_39"/>
+            <zone ulx="1031" uly="5007" lrx="3695" lry="5141" xml:id = "Pagina_1_Riga_40"/>
+            <zone ulx="1023" uly="5175" lrx="3237" lry="5333" xml:id = "Pagina_1_Riga_41"/>
+            <zone ulx="321" uly="5237" lrx="943" lry="5355" xml:id = "Pagina_1_Riga_42"/>
+            <zone ulx="383" uly="5373" lrx="945" lry="5405" xml:id = "Pagina_1_Riga_43"/>
+            <zone ulx="747" uly="5419" lrx="1031" lry="5475" xml:id = "Pagina_1_Riga_44"/>
+            <zone ulx="321" uly="5497" lrx="1027" lry="5721" xml:id = "Pagina_1_Riga_45"/>
+            <zone ulx="1179" uly="5393" lrx="3653" lry="5509" xml:id = "Pagina_1_Riga_46"/>
+            <zone ulx="1237" uly="5565" lrx="3519" lry="5681" xml:id = "Pagina_1_Riga_47"/>
+        </surface>
+        <surface n="2" xml:id="pag2">
+			<graphic url='pag2.jpg' width='4032px' height='5848px' />
+            <zone ulx="363" uly="329" lrx="647" lry="629" xml:id = "Pagina_2_Riga_1"/>
+            <zone ulx="1043" uly="481" lrx="3677" lry="727" xml:id = "Pagina_2_Riga_2"/>
+            <zone ulx="713" uly="725" lrx="3731" lry="935" xml:id = "Pagina_2_Riga_3"/>
+            <zone ulx="701" uly="923" lrx="3699" lry="1079" xml:id = "Pagina_2_Riga_4"/>
+            <zone ulx="443" uly="1165" lrx="955" lry="1279" xml:id = "Pagina_2_Riga_5"/>
+            <zone ulx="433" uly="1303" lrx="849" lry="1409" xml:id = "Pagina_2_Riga_6"/>
+            <zone ulx="1099" uly="1101" lrx="3723" lry="1273" xml:id = "Pagina_2_Riga_7"/>
+            <zone ulx="921" uly="1301" lrx="1651" lry="1403" xml:id = "Pagina_2_Riga_8"/>
+            <zone ulx="479" uly="1583" lrx="1099" lry="1783" xml:id = "Pagina_2_Riga_9"/>
+            <zone ulx="1169" uly="1447" lrx="3637" lry="1547" xml:id = "Pagina_2_Riga_10"/>
+            <zone ulx="515" uly="1767" lrx="3663" lry="1799" xml:id = "Pagina_2_Riga_11"/>
+            <zone ulx="1091" uly="1819" lrx="3691" lry="2151" xml:id = "Pagina_2_Riga_12"/>
+            <zone ulx="1087" uly="2177" lrx="3681" lry="2291" xml:id = "Pagina_2_Riga_13"/>
+            <zone ulx="395" uly="2449" lrx="1063" lry="2623" xml:id = "Pagina_2_Riga_14"/>
+            <zone ulx="385" uly="2649" lrx="1053" lry="2729" xml:id = "Pagina_2_Riga_15"/>
+            <zone ulx="381" uly="2777" lrx="963" lry="2865" xml:id = "Pagina_2_Riga_16"/>
+            <zone ulx="389" uly="2889" lrx="839" lry="2955" xml:id = "Pagina_2_Riga_17"/>
+            <zone ulx="369" uly="2991" lrx="851" lry="3063" xml:id = "Pagina_2_Riga_18"/>
+            <zone ulx="403" uly="3097" lrx="851" lry="3177" xml:id = "Pagina_2_Riga_19"/>
+            <zone ulx="423" uly="3191" lrx="819" lry="3253" xml:id = "Pagina_2_Riga_20"/>
+            <zone ulx="337" uly="3283" lrx="859" lry="3349" xml:id = "Pagina_2_Riga_21"/>
+            <zone ulx="403" uly="3409" lrx="873" lry="3413" xml:id = "Pagina_2_Riga_22"/>
+            <zone ulx="417" uly="3499" lrx="893" lry="3563" xml:id = "Pagina_2_Riga_23"/>
+            <zone ulx="431" uly="3627" lrx="869" lry="3669" xml:id = "Pagina_2_Riga_24"/>
+            <zone ulx="1151" uly="2509" lrx="1919" lry="2589" xml:id = "Pagina_2_Riga_25"/>
+            <zone ulx="1159" uly="2597" lrx="3637" lry="2727" xml:id = "Pagina_2_Riga_26"/>
+            <zone ulx="1057" uly="2851" lrx="3685" lry="3015" xml:id = "Pagina_2_Riga_27"/>
+            <zone ulx="1091" uly="3033" lrx="3689" lry="3211" xml:id = "Pagina_2_Riga_28"/>
+            <zone ulx="1159" uly="3225" lrx="3663" lry="3387" xml:id = "Pagina_2_Riga_29"/>
+            <zone ulx="1153" uly="3401" lrx="3659" lry="3537" xml:id = "Pagina_2_Riga_30"/>
+            <zone ulx="1209" uly="3581" lrx="3633" lry="3745" xml:id = "Pagina_2_Riga_31"/>
+            <zone ulx="1147" uly="3753" lrx="3741" lry="3951" xml:id = "Pagina_2_Riga_32"/>
+            <zone ulx="1139" uly="3967" lrx="3633" lry="4117" xml:id = "Pagina_2_Riga_33"/>
+            <zone ulx="1157" uly="4131" lrx="3707" lry="4323" xml:id = "Pagina_2_Riga_34"/>
+            <zone ulx="1147" uly="4331" lrx="3705" lry="4481" xml:id = "Pagina_2_Riga_35"/>
+            <zone ulx="1145" uly="4489" lrx="3705" lry="4639" xml:id = "Pagina_2_Riga_36"/>
+            <zone ulx="295" uly="4659" lrx="3705" lry="4827" xml:id = "Pagina_2_Riga_37"/>
+            <zone ulx="633" uly="4851" lrx="3685" lry="5009" xml:id = "Pagina_2_Riga_38"/>
+            <zone ulx="1245" uly="5029" lrx="3691" lry="5171" xml:id = "Pagina_2_Riga_39"/>
+            <zone ulx="1273" uly="5199" lrx="3611" lry="5331" xml:id = "Pagina_2_Riga_40"/>
+            <zone ulx="1283" uly="5371" lrx="3733" lry="5485" xml:id = "Pagina_2_Riga_41"/>
+		</surface>
+    </facsimile>
+    <!-- Trascrizione del testo in lingua francese-->
+    <text xml:lang="french" xml:id="Pagina_1_2" subtype="manuscript"> 
+        <body>
+            <pb xml:id="Pagina_1" n="1" facs="#Pagina_1"></pb> 
+            <div type="page" n="1">
+                <ab type="paragraph" n="1" xml:id="P1_Prolusione_1" ref = "#Pagina_1">
+                    <lb xml:id="P1_R1" n="1" facs="#Pagina_1_Riga_1"/>
+                    Si la chaire que j’ai l’honneur en ce
+                    <lb xml:id="P1_R2" n="2" facs="#Pagina_1_Riga_2"/>
+                    moment d’inaugurer, représentait un ordre
+                    <lb xml:id="P1_R3" n="3" facs="#Pagina_1_Riga_3"/>
+                    d’études <add place = "above"><gap extent = "2 words" reason = "deleted" /></add> nouveau <del rend="overstrike">parmi ceux qui ont <gap quantity="4" units="chars" reason="illegible"/> leur</del>
+                    <lb xml:id="P1_R4" n="4" facs="#Pagina_1_Riga_4"/>
+                    <del rend="overstrike">place</del> <gap extent="1 word" reason="illegible"/> dans <institution>notre Université </institution>, <add place="above" resp="#FdS">si j’avais</add> <del rend="overstrike"> je considérerais </del>
+                    <lb xml:id="P1_R5" n="5" facs="#Pagina_1_Riga_5"/>
+                    <add place="left" resp="#FdS">aujourd’hui</add> <add place="above" resp="#FdS">la mission ou le</add> <gap extent = "7 words" reason = "deleted"/> privilège <del rend="overstrike"> de vous </del>
+                    <lb xml:id="P1_R6" n="6" facs="#Pagina_1_Riga_6"/>
+                    <add place="above" resp="#FdS">de vous <choice><abbr resp="#FdS">introdui</abbr> <expan>(introduire)</expan></choice> dans l’édifice <gap extent = "3 words" reason= "deleted"/></add>
+                    <lb xml:id = "P1_R7" n = "7" facs = "#Pagina_1_Riga_7" />
+                    <gap extent = "3 lines" reason = "deleted"/>
+                    <lb xml:id="P1_R8" n="8" facs="#Pagina_1_Riga_8"/>
+                    <add place="left" resp="#FdS"><gap extent= "3 words" reason = "deleted"/>
+                    <lb xml:id="P1_R9" n="9" facs="#Pagina_1_Riga_9"/>
+                    que la <term ref="#sdl"><choice><abbr resp="#FdS">sc.</abbr><expan>(science)</expan></choice>du
+                    <lb xml:id="P1_R10" n="10" facs="#Pagina_1_Riga_10"/>
+                    <choice><abbr resp="#FdS">lang</abbr><expan>(langage)</expan></choice></term> est <choice><abbr resp="#FdS">occ.</abbr><expan>(occupée)</expan></choice>
+                    <lb xml:id="P1_R11" n="11" facs="#Pagina_1_Riga_11"/>
+                    à <choice><abbr resp="#FdS">cstr.</abbr><expan>(construire)</expan></choice>depuis
+                    <lb xml:id="P1_R12" n="12" facs="#Pagina_1_Riga_12"/>
+                    <date>70 ans</date>
+                    <lb xml:id="P1_R13" n="13" facs="#Pagina_1_Riga_13"/>
+                    à <gap extent = "1 word" reason="deleted"/>
+                    <lb xml:id="P1_R14" n="14" facs="#Pagina_1_Riga_14"/>
+                    décrire
+                    <lb xml:id="P1_R15" n="15" facs="#Pagina_1_Riga_15"/>
+                    <choice><abbr resp="#FdS">ds</abbr><expan>(dans)</expan></choice> ses <choice><abbr resp="#FdS">grds</abbr><expan>(grandes)</expan></choice>
+                    <lb xml:id="P1_R16" n="16" facs="#Pagina_1_Riga_16"/>
+                    lignes l’état présent
+                    <lb xml:id="P1_R17" n="17" facs="#Pagina_1_Riga_17"/>
+                    de cette science,
+                    <lb xml:id="P1_R18" n="18" facs="#Pagina_1_Riga_18"/>
+                    à <unclear reason="illegible">parcourir</unclear> son passé, qui
+                    <lb xml:id="P1_R19" n="19" facs="#Pagina_1_Riga_19"/>
+                    n’est pas très long,
+                    <lb xml:id="P1_R20" n="20" facs="#Pagina_1_Riga_20"/>
+                    ou à <choice><abbr resp="#FdS">pronostiq.</abbr><expan>(pronostiquer)</expan></choice>
+                    <lb xml:id="P1_R21" n="21" facs="#Pagina_1_Riga_21"/>
+                    son avenir,
+                    <lb xml:id="P1_R22" n="22" facs="#Pagina_1_Riga_22"/>
+                    à définir son
+                    <lb xml:id="P1_R23" n="23" facs="#Pagina_1_Riga_23"/>
+                    but, son utilité,
+                    <lb xml:id="P1_R24" n="24" facs="#Pagina_1_Riga_24"/>
+                    à marquer la
+                    <lb xml:id="P1_R25" n="25" facs="#Pagina_1_Riga_25"/>
+                    place qu’elle
+                    <lb xml:id="P1_R26" n="26" facs="#Pagina_1_Riga_26"/>
+                    occupe dans le
+                    <lb xml:id="P1_R27" n="27" facs="#Pagina_1_Riga_27"/>
+                    cercle des <choice><abbr resp="#FdS">con.</abbr><expan>(connaissances)</expan></choice>
+                    <lb xml:id="P1_R28" n="28" facs="#Pagina_1_Riga_28"/>
+                    humaines et les
+                    <lb xml:id="P1_R29" n="29" facs="#Pagina_1_Riga_29"/>
+                    services qu’elle peut
+                    <lb xml:id="P1_R30" n="30" facs="#Pagina_1_Riga_30"/>
+                    rendre dans <unclear reason="illegible">une</unclear></add>                
+                    <lb xml:id="P1_dx1" n="1" />
+                    [passé et de l'avenir des études, <gap quantity="4" units="chars" reason="illegible"/>
+                    <lb xml:id="P1_dx2" n="2"/> 
+                    de leur utilité, <gap quantity="4" units="chars" reason="illegible"/> de leur intérêt <gap extent = "2 words" reason="illegible"/>
+                    <lb xml:id="P1_dx3" n="3"/> 
+                    <gap extent = "2 words" reason="illegible"/> de leur but et de leur légitimité; 
+                    <lb xml:id="P1_dx4" n="4"/>
+                    j'aurais à définir la place qui revient <add place="under" resp="#FdS">à cette science</add> dans 
+                    <lb xml:id="P1_dx5" n="5"/>
+                    le cercle des connaissances humaines]  
+                    <lb xml:id = "P1_R31" n = "31" facs = "#Pagina_1_Riga_31" />
+                    <gap extent = "3 lines" reason = "deleted" />
+                    <lb xml:id="P1_R32" n="32" facs="#Pagina_1_Riga_32"/>
+                    <institution>Faculté des lettres</institution>, <gap extent = "7 words" reason = "deleted"/><add place = "above"> je craindrais de ne pas remplir très </add>
+                    <lb xml:id="P1_R33" n="33" facs="#Pagina_1_Riga_33"/>
+                    <gap extent = "1 line" reason = "deleted"/><add place = "above"> dignement ma tâche, mais <choice><abbr resp="#FdS">certa</abbr><expan>(certainement)</expan></choice></add>
+                    <lb xml:id="P1_R34" n="34" facs="#Pagina_1_Riga_34"/>
+                    <gap extent = "2 lines" reason = "deleted"/><add place = "above"> je ne pourrais me plaindre ici de l’abandon.</add>
+                </ab>   
+
+                <ab type="paragraph" n="2" xml:id="P1_Prolusione_2" ref = "#Pagina_1"> 
+                    <lb xml:id="P1_R35" n="35" facs="#Pagina_1_Riga_35"/>
+                    <add place="left" resp="#FdS">Sans exalter
+                    <lb xml:id="P1_R36" n="36" facs="#Pagina_1_Riga_36"/>
+                    outre mesure
+                    <lb xml:id="P1_R37" n="37" facs="#Pagina_1_Riga_37"/>
+                    les mérites de la <term ref="#lingStq">linguistique</term>,</add>
+                    <lb xml:id="P1_R38" n="38" facs="#Pagina_1_Riga_38"/>
+                    <gap extent = "4 lines" reason = "deleted" /> quel est le
+                    <lb xml:id="P1_R39" n="39" facs="#Pagina_1_Riga_39"/>
+                    profit que peut tirer <del rend="overstrike"> de cette é </del> par <choice><abbr resp="#FdS"><unclear reason="illegible">e.</unclear></abbr><expan>(exemple)</expan></choice> de cette
+                    <lb xml:id="P1_R40" n="40" facs="#Pagina_1_Riga_40"/>
+                    étude l’érudition classique, la connaissance
+                    <lb xml:id="P1_R41" n="41" facs="#Pagina_1_Riga_41"/>
+                    des <term ref="#lang">langues</term> grecque, latine et français;
+                    
+                    <lb xml:id="P1_R42" n="42" facs="#Pagina_1_Riga_42"/> 
+                    <add place="left" resp="#FdS"> eût-elle un
+                    <lb xml:id="P1_R43" n="43" facs="#Pagina_1_Riga_43"/>
+                    but simplement
+                    <lb xml:id="P1_R44" n="44" facs="#Pagina_1_Riga_44"/>
+                    <term ref="#litt">littéraire,</term>
+
+                    <lb xml:id="P1_R45" n="45" facs="#Pagina_1_Riga_45"/>
+                    l’intérêt que peut avoir ensuite la même
+                    <lb xml:id="P1_R46" n="46" facs="#Pagina_1_Riga_46"/>
+                    étude pour <gap quantity="5" units="chars" reason="deleted"/> l’<term ref="#hist">histoire</term> ou pour
+                    <lb xml:id="P1_R47" n="46" facs="#Pagina_1_Riga_46"/>
+                    T.H.V.P.</add>
+                </ab> 
+            </div>
+
+
+            <pb xml:id="Pagina_2" n="2" facs="#Pagina_2"></pb> 
+            <div type="page" n="2">
+                <ab type="paragraph" n="3" xml:id="P2_Prolusione" ref = "#Pagina_2">
+                    <lb xml:id="P2_R1" n="1" facs="#Pagina_2_Riga_1"/>
+                    l'<term ref="#hdlc">histoire de la civilisation </term>? – et j’aurais
+                    <lb xml:id="P2_R2" n="2" facs="#Pagina_2_Riga_2"/>
+                    ici à rappeler <add place="above" resp="#FdS">le</add> <del rend="overstrike">que</del> <del rend="overstrike">le</del>nom <add place="above" resp="#FdS">genevois,<unclear reason = "illegible"> dont nous sommes </unclear></add><gap quantity="4" units="chars" reason="deleted"/><del rend = "overstrike">glorieux à</del>
+                    <lb xml:id="P2_R3" n="3" facs="#Pagina_2_Riga_3"/>
+                    fiers à d’autres égards encore <del rend="overstrike">pour notre Faculté</del>
+                    
+                    <lb xml:id="P2_R4" n="4" facs="#Pagina_2_Riga_4"/>
+                    <add place="left" resp="#FdS"> <gap extent = "4 words" reason="deleted"/>
+                    <lb xml:id="P2_R5" n="5" facs="#Pagina_2_Riga_5"/>
+                    <gap extent = "1 word" reason="deleted"/></add>
+                    
+                    <lb xml:id="P2_R6" n="6" facs="#Pagina_2_Riga_6"/>
+                    <del rend = "overstrike">et</del><choice><abbr resp = "#FdS">pr</abbr><expan>(pour)</expan></choice> notre patrie, d'<persName ref = "#AdPic">Adolphe Pictet</persName>, d'<persName ref = "#AdPic"><choice><abbr resp="#FdS">A.P.</abbr><expan>(Adolphe Pictet)</expan></choice></persName> qui
+                    <lb xml:id="P2_R7" n="7" facs="#Pagina_2_Riga_7"/>
+                    <gap extent = "3 words" reason="illegible"/>
+                    
+                    <lb xml:id="P2_R8" n="8" facs="#Pagina_2_Riga_8"/>
+                    <add place="left" resp="#FdS">
+                    <gap extent = "2 lines" reason="deleted"/>
+                    </add>
+                    
+                    <lb xml:id="P2_R9" n="9" facs="#Pagina_2_Riga_9"/>
+                    <del rend="overstrike">pour l'imitateur</del> le premier conçut <del rend="overstrike">ce</del>
+                    <lb xml:id="P2_R10" n="10" facs="#Pagina_2_Riga_10"/>
+                    <add place = "left"><unclear reason = "illegible">méthodiquement</unclear></add><del rend="overstrike">ce</del><add place = "above"><unclear reason = "illegible">le parti</unclear></add> qu’on pouvait tirer <add place = "above"><gap extent = "1 word" reason = "deleted"/></add> de la <term ref="#lang">langue</term><del rend="overstrike">pour</del>
+    
+                    <lb xml:id="P2_R11" n="11" facs="#Pagina_2_Riga_11"/>
+                    <gap extent = "2 lines" reason = "deleted"/>
+                    
+                    <lb xml:id="P2_R12" n="12" facs="#Pagina_2_Riga_12"/>
+                    <del rend="overstrike">et qui</del> comme témoin des âges préhistoriques, 
+                    <lb xml:id="P2_R13" n="13" facs="#Pagina_2_Riga_13"/>
+                    et qui, <choice><abbr resp="#FdS">tt</abbr><expan>(tout)</expan></choice> en <gap extent = "2 words" reason="deleted"/> <add place="above" resp="#FdS">se <gap extent = "4 words" reason = "deleted"/> fiant</add> peut-être <add place="above"><unclear reason = "illegible">trop,</unclear><del rend = "overstrike" resp = "#FdS"> comme il </del></add><del rend = "overstrike" resp = "#FdS"> la sureté </del>                
+
+                    <add><lb xml:id="P2_R14" n="14" facs="#Pagina_2_Riga_14"/>
+                    <gap extent = "1 word" reason = "illegible"/>
+                    était inévitable
+                    <lb xml:id="P2_R15" n="15" facs="#Pagina_2_Riga_15"/>
+                    <choice><abbr resp="#FdS">ds</abbr><expan>(dans)</expan></choice>le <num type = "ordinal" value = "1">premier</num> <w>enthou-
+                    <lb xml:id="P2_R16" n="16" facs="#Pagina_2_Riga_16" break="no" rend="stroke"/>
+                    -siasme</w> <del rend="overstrike">du</del>
+                    <lb xml:id="P2_R17" n="17" facs="#Pagina_2_Riga_17"/>
+                    <del rend = "overstrike">grande</del> 
+                    <lb xml:id="P2_R18" n="18" facs="#Pagina_2_Riga_18"/>
+                    que <unclear reason = "illegible">provoquait</unclear>
+                    <lb xml:id="P2_R19" n="19" facs="#Pagina_2_Riga_19"/>
+                    <gap extent = "1 word" reason = "illegible" /> la 
+                    <lb xml:id="P2_R20" n="20" facs="#Pagina_2_Riga_20"/>
+                    <choice><abbr resp="#FdS">révélati</abbr><expan>(révélation)</expan></choice>
+                    <lb xml:id="P2_R21" n="21" facs="#Pagina_2_Riga_21"/>
+                    <add place  ="above">subite </add> <del rend="overstrike">de <gap quantity="2" units="chars" reason="deleted"/></del> d’un 
+                    <lb xml:id="P2_R22" n="22" facs="#Pagina_2_Riga_22"/>
+                    monde
+                    <lb xml:id="P2_R23" n="23" facs="#Pagina_2_Riga_23"/>
+                    insoupçonné
+                    <lb xml:id="P2_R24" n="24" facs="#Pagina_2_Riga_24"/>
+                    <emph>la vérité </emph>, </add>
+                    <lb xml:id="P2_R25" n="25" facs="#Pagina_2_Riga_25"/>
+                    <add place = "above" resp = "#FdS">le valeur absolue </add>
+                    <lb xml:id="P2_R26" n="26" facs="#Pagina_2_Riga_26"/>
+                    des indications que <del rend="overstrike">de</del> peut <!--<emph>donner </emph>-->la <term ref="#lang">langue</term>,n’en a pas
+                    <lb xml:id="P2_R27" n="27" facs="#Pagina_2_Riga_27"/>
+                    moins été <del rend="overstrike">l'imitateur d'</del> le fondateur
+                    <lb xml:id="P2_R28" n="28" facs="#Pagina_2_Riga_28"/>
+                    d’une <add place="above" resp="#FdS">sérieuse</add> branche de recherches encore
+                    <lb xml:id="P2_R29" n="29" facs="#Pagina_2_Riga_29"/>
+                    actuellement cultivée avec <choice><abbr resp="#FdS">tte</abbr><expan>(toute)</expan> </choice>raison
+                    <lb xml:id="P2_R30" n="30" facs="#Pagina_2_Riga_30"/>
+                    par une série ininterrompue de savants
+                    <lb xml:id="P2_R31" n="31" facs="#Pagina_2_Riga_31"/>
+                    – j’insisterais après cela sur la portée
+                    <lb xml:id="P2_R32" n="32" facs="#Pagina_2_Riga_32"/>
+                    <choice><abbr>singulière</abbr><expan>(singulièrement)</expan></choice> précise qu’a prise pour <w>l’ethno – 
+                    <lb xml:id="P2_R33" n="33" facs="#Pagina_2_Riga_33" break="no" rend="stroke"/>
+                    graphie</w> <space dim = "horizontal" />, tellement que la
+                    <lb xml:id="P2_R34" n="34" facs="#Pagina_2_Riga_34"/>
+                    <term ref="#lingStq">donnée linguistique</term> est toujours jusqu’à
+                    <lb xml:id="P2_R35" n="35" facs="#Pagina_2_Riga_35"/>
+                    plus ample informé, la preuve première
+                    <lb xml:id="P2_R36" n="36" facs="#Pagina_2_Riga_36"/>
+                    <choice><abbr>pr</abbr><expan>(pour)</expan></choice> l’ethnologiste, – et qu<add place="above" resp="#FdS">’on se demande</add><del rend="overstrike">le même <choice><abbr resp="#FdS">ethnolo</abbr><expan>(ethnologique)</expan></choice></del>
+                    <lb xml:id="P2_R37" n="37" facs="#Pagina_2_Riga_37"/>
+                    <unclear reason="illegible">comment</unclear> l’ethnologiste, sans cette donnée n'aurait jamais
+                    <lb xml:id="P2_R38" n="38" facs="#Pagina_2_Riga_38"/>
+                    pu affirmer <del rend="overstrike">imaginé</del> par <choice><abbr resp="#FdS">ex.</abbr><expan>(exemple)</expan></choice> <add place="above" resp="#FdS">pour choisir un <choice><abbr resp="#FdS">ex.</abbr><expan>(exemple)</expan></choice> entre mille</add>
+                    qu’au sein des <name>Hongrois</name> les
+                    <lb xml:id="P2_R39" n="39" facs="#Pagina_2_Riga_39"/>
+                    <name>Tsiganes</name> représentent une race totalement distincte 
+                    <lb xml:id="P2_R40" n="40" facs="#Pagina_2_Riga_40"/>
+                    du <name>Magyar</name> - qu’au sein de <institution>l’empire</institution>
+                    <lb xml:id="P2_R41" n="41" facs="#Pagina_2_Riga_41"/>
+                    <institution>autrichien</institution>, le <name>Magyar</name> à son tour représente
+                </ab>
+            </div>
+
+            <!--Traduzione del testo in lingua italiana-->
+            <div type="translation">
+                <ab n="1" corresp="#P1_Prolusione" xml:lang="italian">  
+                    <lb xml:id="P1_R1_ita"/>
+                    Se la cattedra che ho in questa occasione
+                    <lb xml:id="P1_R2_ita"/>
+                    l’onore di inaugurare rappresentasse un ordine 
+                    <lb xml:id="P1_R3_ita"/>
+                    di studi nuovo 
+                    <lb xml:id="P1_R4_ita"/>
+                    nella nostra Università, se avessi 
+                    <lb xml:id="P1_R5_ita"/>
+                    oggi la missione o il privilegio 
+                    <lb xml:id="P1_R6_ita"/>
+                    d’introdurvi nell’edificio
+                    <lb xml:id="P1_R7_ita"/>
+                    che la scienza del 
+                    <lb xml:id="P1_R8_ita"/>
+                    linguaggio è intenta
+                    <lb xml:id="P1_R9_ita"/>
+                    a costruire da
+                    <lb xml:id="P1_R10_ita"/>
+                    settant’anni in qua, 
+                    <lb xml:id="P1_R11_ita"/>
+                    e di 
+                    <lb xml:id="P1_R12_ita"/>
+                    descrivere 
+                    <lb xml:id="P1_R13_ita"/>
+                    a grandi 
+                    <lb xml:id="P1_R14_ita"/>
+                    linee lo stato attuale 
+                    <lb xml:id="P1_R5_ita"/>
+                    di questa scienza,
+                    <lb xml:id="P1_R16_ita"/>
+                    e percorrere il suo passato, che
+                    <lb xml:id="P1_R7_ita"/> 
+                    non è poi così lungo, 
+                    <lb xml:id="P1_R17_ita"/>
+                    o di pronosticare
+                    <lb xml:id="P1_R18_ita"/>
+                    il suo avvenire, 
+                    <lb xml:id="P1_R19_ita"/>
+                    la sua utilità, 
+                    <lb xml:id="P1_R20_ita"/>
+                    e definire il 
+                    <lb xml:id="P1_R21_ita"/>
+                    posto che essa 
+                    <lb xml:id="P1_R22_ita"/>
+                    occupa nel 
+                    <lb xml:id="P1_R23_ita"/>
+                    cerchio delle conoscenze 
+                    <lb xml:id="P1_R24_ita"/>
+                    umane e i
+                    <lb xml:id="P1_R25_ita"/>
+                    servizi che essa può 
+                    <lb xml:id="P1_R26_ita"/>
+                    rendere in una 
+                    <lb xml:id="P1_R27_ita"/>
+                    Facoltà di Lettere, avrei timore di non poter assolvere
+                    <lb xml:id="P1_R28_ita"/>
+                    degnamente il mio compito, ma certamente 
+                    <lb xml:id="P1_R29_ita"/>
+                    non potrei lamentarmi qui dell’abbandono.
+                </ab>
+                <ab n="2" corresp="#P1_Prolusione" xml:lang="italian">
+                    <lb xml:id="P1_R30_ita"/>
+                    Senza esaltare
+                    <lb xml:id="P1_R31_ita"/>
+                    oltre misura
+                    <lb xml:id="P1_R32_ita"/>
+                    i meriti della linguistica,
+                    <lb xml:id="P1_R33_ita"/>
+                    qual è il 
+                    <lb xml:id="P1_R34_ita"/>
+                    beneficio che può trarre da tale studio, per esempio, 
+                    <lb xml:id="P1_R35_ita"/>
+                    l’erudizione classica, la conoscenza 
+                    <lb xml:id="P1_R36_ita"/>
+                    delle lingue greca, latina e francese, 
+                    <lb xml:id="P1_R37_ita"/>
+                    avesse pure un 
+                    <lb xml:id="P1_R38_ita"/>
+                    fine semplicemente
+                    <lb xml:id="P1_R39_ita"/>
+                    letterario,
+                    <lb xml:id="P1_R40_ita"/>
+                    e l’interesse che può avere il medesimo 
+                    <lb xml:id="P1_R41_ita"/>
+                    studio per la storia o per 
+                </ab>
+                <ab n="3" corresp="#P2_Prolusione" xml:lang="italian">
+                    <lb xml:id="P2_R1_ita" />
+                    la storia della civiltà? – e dovrei 
+                    <lb xml:id="P2_R2_ita" />
+                    qui ricordare il nome ginevrino, di cui siamo
+                    <lb xml:id="P2_R3_ita" />
+                    fieri, anche in altri ambiti,
+                    <lb xml:id="P2_R4_ita" />
+                    per la nostra patria, di Adolphe Pictet, di Adolphe Pictet il quale,
+                    <lb xml:id="P2_R5_ita" />
+                    per primo, concepì 
+                    <lb xml:id="P2_R6_ita" />
+                    con metodo il contributo che si poteva trarre dalla lingua 
+                    <lb xml:id="P2_R7_ita" />
+                    in quanto testimone delle età preistoriche,
+                    <lb xml:id="P2_R8_ita" />
+                    e che, sebbene sorretto da una fiducia forse eccessiva – com’era
+                    <lb xml:id="P2_R9_ita" />
+                    inevitabile 
+                    <lb xml:id="P2_R10_ita" />
+                    nel primo entusiasmo
+                    <lb xml:id="P2_R11_ita" />
+                    provocato dalla
+                    <lb xml:id="P2_R12_ita" />
+                    sùbita 
+                    <lb xml:id="P2_R13_ita" />
+                    rivelazione d’un
+                    <lb xml:id="P2_R14_ita" />
+                    mondo
+                    <lb xml:id="P2_R15_ita" />
+                    insospettato 
+                    <lb xml:id="P2_R16_ita" />
+                    – nella verità, 
+                    <lb xml:id="P2_R17_ita" />
+                    nel valore assoluto 
+                    <lb xml:id="P2_R18_ita" />
+                    delle indicazioni che la
+                    <lb xml:id="P2_R19_ita" />
+                    lingua può dare, 
+                    <lb xml:id="P2_R20_ita" />
+                    è stato nondimeno il fondatore 
+                    <lb xml:id="P2_R21_ita" />
+                    di una seria branca di ricerche, coltivate 
+                    <lb xml:id="P2_R22_ita" />
+                    ancora attualmente a giusto titolo 
+                    <lb xml:id="P2_R23_ita" />
+                    da una serie ininterrotta di studiosi
+                    <lb xml:id="P2_R24_ita" />
+                    – dopo di che insisterei sulla portata
+                    <lb xml:id="P2_R25_ita" />
+                    singolarmente precisa che ha assunto, per l’etnografia,
+                    <lb xml:id="P2_R26_ita" /> 
+                    la linguistica, a tal segno che il dato
+                    <lb xml:id="P2_R27_ita" />
+                    [linguistico] è sempre, fino a
+                    <lb xml:id="P2_R28_ita" />
+                    prova più dettagliata, la prova principale 
+                    <lb xml:id="P2_R29_ita" />
+                    per l’etnologo, – e che ci si chiede 
+                    <lb xml:id="P2_R30_ita" />
+                    come l’etnologo senza quel dato avrebbe mai
+                    <lb xml:id="P2_R31_ita" />
+                    potuto affermare per esempio (per scegliere un esempio tra mille) che tra gli Ungheresi gli 
+                    <lb xml:id="P2_R32_ita" />
+                    Tzigani rappresentano una razza totalmente distinta
+                    <lb xml:id="P2_R33_ita" />
+                    dai Magiari, che in seno all’impero 
+                    <lb xml:id="P2_R34_ita" />austriaco il Magiaro, a sua volta, rappresenta
+                </ab>
+            </div>
+        </body>
+        <!--Informazioni aggiuntive del testo-->
+        <back>
+            <div type = "addList">
+                <list type = "terminology">
+                    <label>
+                        <term xml:id = "sdl" xml:lang = "french">Science du langage</term>
+                        <term ref = "#sdl" xml:lang = "italian">Scienza del linguaggio</term>
+                    </label>
+
+                    <label>
+                        <term xml:id = "lingStq" xml:lang = "french">Linguistique</term>
+                        <term ref = "#lingStq" xml:lang = "italian">Linguistica</term>
+                    </label>
+                    <item>
+						<gloss target="#lingStq" xml:lang="it" source="https://www.treccani.it/vocabolario/linguistica/">
+                        La linguistica è la scienza che studia sistematicamente il linguaggio umano nella totalità delle sue manifestazioni.
+						</gloss>
+					</item>
+
+                    <label>
+                        <term xml:id = "lang" xml:lang = "french">Langues</term>
+                        <term ref = "#lang" xml:lang = "italian">Lingue</term>
+                    </label>
+
+                    <label>
+                        <term xml:id = "litt" xml:lang = "french">Littéraire</term>
+                        <term ref = "#litt" xml:lang = "italian">Letterario</term>
+                    </label>
+                    <item>
+						<gloss target="#litt" xml:lang="it" source="https://www.treccani.it/vocabolario/letterario/">
+						Con "letterario" si intende un prodotto dell’ingegno che appartiene alla letteratura.
+                        </gloss>
+					</item>
+
+                     <label>
+                        <term xml:id = "hist" xml:lang = "french">Histoire</term>
+                        <term ref = "#hist" xml:lang = "italian">Storia</term>
+                    </label>
+                    <item>
+						<gloss target="#hist" xml:lang="it" source="https://www.treccani.it/enciclopedia/storia">
+                        La storia è il complesso delle azioni umane nel corso del tempo, nel senso sia degli eventi politici sia dei costumi e delle istituzioni in cui esse si sono organizzate. 
+                        </gloss>
+					</item>
+
+                     <label>
+                        <term xml:id = "hdlc" xml:lang = "french">Histoire de la civilisation</term>
+                        <term ref = "#hdlc" xml:lang = "italian">Storia della civiltà</term>
+                    </label>
+                </list>
+
+                <listPerson>
+					<person ref="FdS">
+					    <persName role="linguist">
+							<ref xml:lang="italian" target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure"/>
+							<forename>Ferdinand</forename>
+							<surname>De Saussure</surname>
+						</persName>
+					</person>
+                    <person xml:id="AdPic">
+					    <persName role="linguist">
+							<ref xml:lang="english" target="https://en.wikipedia.org/wiki/Adolphe_Pictet"/>
+							<forename>Adolphe</forename>
+							<surname>Pictet</surname>
+						</persName>
+					</person>
+                </listPerson>
+
+                <listPlace>
+					<place xml:id="GN">
+						<placeName>Ginevra</placeName>
+						<settlement>Ginevra</settlement>
+						<country>Svizzera</country>
+					</place>
+														
+					<place xml:id="Roma">
+						<placeName>Roma</placeName>
+						<settlement>Lazio</settlement>
+						<country>Italia</country>
+					</place>
+					<place xml:id="Bari">
+				    	<placeName>Bari</placeName>
+					    <settlement>Puglia</settlement>
+						<country>Italia</country>
+					</place>
+                </listPlace>
+                <listBibl>
+                    <bibl xml:id="corso_lng">
+						<author ref="#FdS">
+							<forename>Ferdinand</forename>
+							<surname>De Saussure</surname>
+						</author>
+						<author xml:id="TdM">
+						    <forename>Tullio</forename>
+							<surname>De Mauro</surname>
+						</author>
+						<title type="main">Corso di linguistica generale</title>
+						<title type="sub">Introduzione, traduzione e commento di Tullio De Mauro</title>
+						<pubPlace>
+                            <placeName ref="#Roma">Roma</placeName>
+                        </pubPlace>
+						<pubPlace>
+                            <placeName ref="#Bari">Bari</placeName>
+                        </pubPlace>
+						<date when="1976">1976</date>
+						<publisher>Editori Laterza</publisher>
+					</bibl>
+
+                    <bibl xml:id="CFS62" xml:lang="french" source="https://www.jstor.org/stable/41427851?seq=1#metadata_info_tab_contents">
+						<author xml:id="AC">
+						    <forename>Alessandro</forename>
+					        <surname>Chidichimo</surname>
+						</author>
+						<title>Cahiers <persName ref="#FdS">Ferdinand de Saussure</persName></title>
+						<pubPlace ref="#GN">
+                            <placeName ref="#GN">Ginevra</placeName>
+                        </pubPlace>
+						<publisher>Librairie Droz</publisher>
+					    <date when="2009">2009</date>
+					</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
